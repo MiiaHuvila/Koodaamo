@@ -1,0 +1,61 @@
+$primary-color: #CDDC39;
+$grey: #e6e6e6;
+/* ****************************************
+    NAV - DESKTOP
+**************************************** */
+.nav-desktop{
+    height: 70px;
+    background: $primary-color;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.nav-desktop li{
+    background: $primary-color;
+    line-height: 70px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.nav-desktop a{
+    color: white;
+}
+.menu-text{
+    color: white;
+}
+/* ****************************************
+    WRAP - STYLE
+**************************************** */
+.wrap{
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+/* ****************************************
+    MAIN - SECTION
+**************************************** */
+.main{
+    padding: 80px 0px;
+    background: white;
+}
+.main h1{
+    text-align: center;
+}
+/* ****************************************
+    SECONDARY - SECTION
+**************************************** */
+.secondary{
+    padding: 80px 0px;
+    background: white;
+}
+.right{
+    text-align: right;
+}
+/* ****************************************
+    GREY - SECTION
+**************************************** */
+.grey{
+    background: $grey;
+}
+.grey hr{
+    border-color: white;
+}
+

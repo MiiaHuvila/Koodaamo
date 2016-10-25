@@ -21,6 +21,28 @@ $grey: #e6e6e6;
 }
 .menu-text{
     color: white;
+	font-size: 30px; 
+}
+.top-bar-right li{
+	line-height: 70px;
+}
+.menu li a{
+	line-height: 40px;
+	font-size: 20px;
+	display: block;
+}
+/* ****************************************
+    NAV - MOBILE
+**************************************** */
+.title-bar{
+    background: $primary-color;
+    height: 60px;
+    line-height: 60px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+} 
+.title-bar-title{
+	font-size: 25px;
 }
 /* ****************************************
     WRAP - STYLE
@@ -37,6 +59,7 @@ $grey: #e6e6e6;
     padding: 120px 0px;
     background-image: url("http://cosmo.kpedu.fi/~miiahuvila/koodaamo/kuvanen.png");
 	background-repeat: repeat-x;
+	background: $primary-color;
 	color: white;
 }
 .main h1{
@@ -65,7 +88,26 @@ $grey: #e6e6e6;
     FOOTER - SECTION
 **************************************** */
 .footer{
-    padding: 80px 0px;
+    padding: 50px 0px 200px 0px;
     background-color: $secondary-color;
 	color: white;
+}
+.footer li{
+	list-style-type: none;
+}
+/* ****************************************
+    MEDIA - QUARY
+**************************************** */
+@media (max-width: 700px){
+    .nav-desktop{
+        display: none;
+    }
+	.footer{
+		padding: 50px 0px 250px 0px;
+	}
+}
+@media (min-width: 700px){
+    .nav-mobile{
+        display: none;
+    }
 }

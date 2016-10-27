@@ -45,6 +45,21 @@ $grey: #e6e6e6;
 	font-size: 25px;
 }
 /* ****************************************
+	OFF-CANVAS - STYLES
+**************************************** */
+.off-canvas-wrapper{
+	background: white;
+}
+#offCanvas{
+	background: transparent;
+}
+#valikko a{
+	color: $primary-color;
+}
+#valikko a:hover{
+	color: $grey;
+}
+/* ****************************************
     WRAP - STYLE
 **************************************** */
 .wrap{
@@ -56,10 +71,10 @@ $grey: #e6e6e6;
     MAIN - SECTION
 **************************************** */
 .main{
-    padding: 120px 0px;
+    padding: 85px 0px;
     background-image: url("http://cosmo.kpedu.fi/~miiahuvila/koodaamo/kuvanen.png");
 	background-repeat: repeat-x;
-	background: $primary-color;
+/*	background: $primary-color; */
 	color: white;
 }
 .main h1{
@@ -95,6 +110,9 @@ $grey: #e6e6e6;
 .footer li{
 	list-style-type: none;
 }
+.footer i:before{
+	font-size: 25px;
+}
 /* ****************************************
     MEDIA - QUARY
 **************************************** */
@@ -110,4 +128,20 @@ $grey: #e6e6e6;
     .nav-mobile{
         display: none;
     }
+}
+/* ****************************************
+    CARD - TRICK
+**************************************** */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.kortti {
+    padding: 2px 16px;
 }
